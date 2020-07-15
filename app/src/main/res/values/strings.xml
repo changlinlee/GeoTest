@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">GeoTest</string>
+    <string name="search_nearby_cities">Search Cities</string>
+</resources>

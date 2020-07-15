@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/edit_lat_lng"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2.5"
+            android:hint="Please input lat and lng, like:12.3456 12.3456"/>
+
+        <Button
+            android:id="@+id/btn_search"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/btn_background"
+            android:text="@string/search_nearby_cities"
+            android:textColor="@android:color/white"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/list_nearby_cities"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</LinearLayout>
